@@ -1,7 +1,4 @@
-#good
-class Solution:
-    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
-        dummyHead = ListNode(0)
+dummyHead = ListNode(0)
         tail = dummyHead
         carry = 0
 
@@ -11,3 +8,6 @@ class Solution:
 
             sum = digit1 + digit2 + carry
             digit = sum % 10
+            carry = sum // 10
+
+            newNode = ListNode(digit)

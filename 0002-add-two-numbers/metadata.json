@@ -6,15 +6,15 @@
   "problemId": 2,
   "runtime": "3\nms",
   "slug": "add-two-numbers",
-  "sourceCode": "#good\nclass Solution:\n    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:\n        dummyHead = ListNode(0)\n        tail = dummyHead\n        carry = 0\n\n        while l1 is not None or l2 is not None or carry != 0:\n            digit1 = l1.val if l1 is not None else 0\n            digit2 = l2.val if l2 is not None else 0\n\n            sum = digit1 + digit2 + carry\n            digit = sum % 10",
-  "submittedAt": "2026-07-25T18:25:38.780Z",
+  "sourceCode": "dummyHead = ListNode(0)\n        tail = dummyHead\n        carry = 0\n\n        while l1 is not None or l2 is not None or carry != 0:\n            digit1 = l1.val if l1 is not None else 0\n            digit2 = l2.val if l2 is not None else 0\n\n            sum = digit1 + digit2 + carry\n            digit = sum % 10\n            carry = sum // 10\n\n            newNode = ListNode(digit)",
+  "submittedAt": "2026-07-25T18:27:14.747Z",
   "title": "Add Two Numbers",
   "topics": [
     "Linked List",
     "Math",
     "Recursion"
   ],
-  "submissionDate": "2026-07-25T18:25:38.780Z",
+  "submissionDate": "2026-07-25T18:27:14.747Z",
   "folderName": "0002-add-two-numbers",
   "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0002-add-two-numbers/solution.py"
 }
