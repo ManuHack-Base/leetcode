@@ -29,14 +29,11 @@
   {
     "id": 3,
     "title": "Longest Substring Without Repeating Characters",
-    "slug": "two-sum",
-    "difficulty": "Easy",
-    "language": "python3",
-    "topics": [
-      "Array",
-      "Hash Table"
-    ],
-    "solvedAt": "2026-07-25T17:41:01.206Z",
-    "folderName": "0003-two-sum"
+    "slug": "longest-substring-without-repeating-characters",
+    "difficulty": "Unknown",
+    "language": "java",
+    "topics": [],
+    "solvedAt": "2026-07-25T18:45:04.174Z",
+    "folderName": "0003-longest-substring-without-repeating-characters"
   }
 ]

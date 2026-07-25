@@ -1,5 +1,5 @@
 {
-  "totalSolved": 9,
+  "totalSolved": 10,
   "easy": 6,
   "medium": 3,
   "hard": 0,
@@ -7,7 +7,7 @@
   "longestStreak": 1,
   "languages": {
     "python3": 6,
-    "java": 2,
+    "java": 3,
     "javascript": 1
   },
   "topics": {
@@ -17,8 +17,8 @@
     "Math": 3,
     "Recursion": 3
   },
-  "lastSolved": "2026-07-25T18:29:16.647Z",
+  "lastSolved": "2026-07-25T18:45:04.174Z",
   "monthlySolves": {
-    "2026-07": 9
+    "2026-07": 10
   }
 }

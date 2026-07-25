@@ -1,0 +1,14 @@
+{
+  "difficulty": "Unknown",
+  "language": "java",
+  "leetCodeUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/",
+  "problemId": 3,
+  "slug": "longest-substring-without-repeating-characters",
+  "sourceCode": "class Solution {\n    public int lengthOfLongestSubstring(String s) {\n        int left = 0;\n        int maxLength = 0;\n        HashSet<Character> charSet = new HashSet<>();\n\n        for (int right = 0; right < s.length(); right++) {\n            while (charSet.contains(s.charAt(right))) {\n                charSet.remove(s.charAt(left));\n                left++;\n            }\n\n            charSet.add(s.charAt(right));\n            maxLength = Math.max(maxLength, right - left + 1);\n        }\n\n        r",
+  "submittedAt": "2026-07-25T18:45:04.174Z",
+  "title": "Longest Substring Without Repeating Characters",
+  "topics": [],
+  "submissionDate": "2026-07-25T18:45:04.174Z",
+  "folderName": "0003-longest-substring-without-repeating-characters",
+  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0003-longest-substring-without-repeating-characters/solution.java"
+}
