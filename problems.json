@@ -13,6 +13,20 @@
     "folderName": "0001-two-sum"
   },
   {
+    "id": 2,
+    "title": "Add Two Numbers",
+    "slug": "add-two-numbers",
+    "difficulty": "Medium",
+    "language": "python3",
+    "topics": [
+      "Linked List",
+      "Math",
+      "Recursion"
+    ],
+    "solvedAt": "2026-07-25T18:25:38.780Z",
+    "folderName": "0002-add-two-numbers"
+  },
+  {
     "id": 3,
     "title": "Longest Substring Without Repeating Characters",
     "slug": "two-sum",
