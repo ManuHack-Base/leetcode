@@ -1,14 +1,14 @@
 {
-  "totalSolved": 15,
+  "totalSolved": 16,
   "easy": 6,
-  "medium": 5,
+  "medium": 6,
   "hard": 3,
   "currentStreak": 1,
   "longestStreak": 1,
   "languages": {
     "python3": 8,
     "java": 5,
-    "javascript": 1,
+    "javascript": 2,
     "cpp": 1
   },
   "topics": {
@@ -19,12 +19,12 @@
     "Recursion": 3,
     "Binary Search": 1,
     "Divide and Conquer": 1,
-    "Two Pointers": 2,
-    "String": 2,
-    "Dynamic Programming": 2
+    "Two Pointers": 3,
+    "String": 3,
+    "Dynamic Programming": 3
   },
-  "lastSolved": "2026-07-25T19:17:27.819Z",
+  "lastSolved": "2026-07-25T19:23:20.290Z",
   "monthlySolves": {
-    "2026-07": 15
+    "2026-07": 16
   }
 }
