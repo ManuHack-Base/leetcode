@@ -1,13 +1,13 @@
 {
-  "totalSolved": 11,
+  "totalSolved": 12,
   "easy": 6,
   "medium": 3,
-  "hard": 1,
+  "hard": 2,
   "currentStreak": 1,
   "longestStreak": 1,
   "languages": {
     "python3": 7,
-    "java": 3,
+    "java": 4,
     "javascript": 1
   },
   "topics": {
@@ -17,8 +17,8 @@
     "Math": 3,
     "Recursion": 3
   },
-  "lastSolved": "2026-07-25T18:57:33.160Z",
+  "lastSolved": "2026-07-25T19:02:26.488Z",
   "monthlySolves": {
-    "2026-07": 11
+    "2026-07": 12
   }
 }

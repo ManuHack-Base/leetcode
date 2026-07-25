@@ -45,5 +45,15 @@
     "topics": [],
     "solvedAt": "2026-07-25T18:57:33.160Z",
     "folderName": "0004-median-of-two-sorted-arrays"
+  },
+  {
+    "id": 4,
+    "title": "Median of Two Sorted Arrays",
+    "slug": "median-of-two-sorted-arrays",
+    "difficulty": "Hard",
+    "language": "java",
+    "topics": [],
+    "solvedAt": "2026-07-25T19:02:26.488Z",
+    "folderName": "0004-median-of-two-sorted-arrays"
   }
 ]
