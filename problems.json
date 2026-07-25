@@ -69,5 +69,19 @@
     ],
     "solvedAt": "2026-07-25T19:07:14.898Z",
     "folderName": "0004-median-of-two-sorted-arrays"
+  },
+  {
+    "id": 5,
+    "title": "Longest Palindromic Substring",
+    "slug": "longest-palindromic-substring",
+    "difficulty": "Medium",
+    "language": "python3",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ],
+    "solvedAt": "2026-07-25T19:12:07.955Z",
+    "folderName": "0005-longest-palindromic-substring"
   }
 ]

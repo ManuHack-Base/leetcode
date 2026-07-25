@@ -1,0 +1,20 @@
+{
+  "difficulty": "Medium",
+  "language": "python3",
+  "leetCodeUrl": "https://leetcode.com/problems/longest-palindromic-substring/submissions/2081167245/",
+  "memory": "19.13\nMB",
+  "problemId": 5,
+  "runtime": "2696\nms",
+  "slug": "longest-palindromic-substring",
+  "sourceCode": "class Solution:\n    def longestPalindrome(self, s: str) -> str:\n        def check(i, j):\n            left = i\n            right = j - 1\n\n            while left < right:\n                if s[left] != s[right]:\n                    return False\n\n                left += 1\n                right -= 1\n\n            return True\n\n        for length in range(len(s), 0, -1):\n            for start in range(len(s) - length + 1):\n                if check(start, start + length):\n                    return s[start : start + length]\n\n        return \"\"",
+  "submittedAt": "2026-07-25T19:12:07.955Z",
+  "title": "Longest Palindromic Substring",
+  "topics": [
+    "Two Pointers",
+    "String",
+    "Dynamic Programming"
+  ],
+  "submissionDate": "2026-07-25T19:12:07.955Z",
+  "folderName": "0005-longest-palindromic-substring",
+  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0005-longest-palindromic-substring/solution.py"
+}
