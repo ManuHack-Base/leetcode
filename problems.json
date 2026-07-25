@@ -4,12 +4,12 @@
     "title": "Two Sum",
     "slug": "two-sum",
     "difficulty": "Easy",
-    "language": "python3",
+    "language": "javascript",
     "topics": [
       "Array",
       "Hash Table"
     ],
-    "solvedAt": "2026-07-25T17:47:34.126Z",
+    "solvedAt": "2026-07-25T17:52:11.788Z",
     "folderName": "0001-two-sum"
   },
   {
