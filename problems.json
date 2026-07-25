@@ -111,5 +111,19 @@
     ],
     "solvedAt": "2026-07-25T19:23:20.290Z",
     "folderName": "0005-longest-palindromic-substring"
+  },
+  {
+    "id": 5,
+    "title": "Longest Palindromic Substring",
+    "slug": "longest-palindromic-substring",
+    "difficulty": "Medium",
+    "language": "c",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ],
+    "solvedAt": "2026-07-25T19:31:20.281Z",
+    "folderName": "0005-longest-palindromic-substring"
   }
 ]

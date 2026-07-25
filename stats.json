@@ -1,7 +1,7 @@
 {
-  "totalSolved": 16,
+  "totalSolved": 17,
   "easy": 6,
-  "medium": 6,
+  "medium": 7,
   "hard": 3,
   "currentStreak": 1,
   "longestStreak": 1,
@@ -9,7 +9,8 @@
     "python3": 8,
     "java": 5,
     "javascript": 2,
-    "cpp": 1
+    "cpp": 1,
+    "c": 1
   },
   "topics": {
     "Array": 7,
@@ -19,12 +20,12 @@
     "Recursion": 3,
     "Binary Search": 1,
     "Divide and Conquer": 1,
-    "Two Pointers": 3,
-    "String": 3,
-    "Dynamic Programming": 3
+    "Two Pointers": 4,
+    "String": 4,
+    "Dynamic Programming": 4
   },
-  "lastSolved": "2026-07-25T19:23:20.290Z",
+  "lastSolved": "2026-07-25T19:31:20.281Z",
   "monthlySolves": {
-    "2026-07": 16
+    "2026-07": 17
   }
 }
