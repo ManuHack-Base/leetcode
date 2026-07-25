@@ -19,5 +19,5 @@ See the accompanying solution file for the submitted implementation.
 
 ## Links
 
-- [LeetCode problem](https://leetcode.com/problems/add-two-numbers/submissions/2081123458/)
+- [LeetCode problem](https://leetcode.com/problems/add-two-numbers/)
 - [GitHub source](https://github.com/ManuHack-Base/leetcode/blob/main/0002-add-two-numbers/solution.py)
