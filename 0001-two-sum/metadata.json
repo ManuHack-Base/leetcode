@@ -1,19 +1,17 @@
 {
   "difficulty": "Easy",
-  "language": "java",
-  "leetCodeUrl": "https://leetcode.com/problems/two-sum/submissions/2081106147/",
-  "memory": "46.68\nMB",
+  "language": "python3",
+  "leetCodeUrl": "https://leetcode.com/problems/two-sum/",
   "problemId": 1,
-  "runtime": "4\nms",
   "slug": "two-sum",
-  "sourceCode": "}\n        // In case there is no solution, return an empty array\n            int complement = target - nums[i];\n            if (map.containsKey(complement) && map.get(complement) != i) {\n                return new int[] { i, map.get(complement) };\n            }\n        for (int i = 0; i < nums.length; i++) {\n        }\n            map.put(nums[i], i);\n        for (int i = 0; i < nums.length; i++) {\n        Map<Integer, Integer> map = new HashMap<>();\nclass Solution {\n    public int[] twoSum(int[] nums, int target) {",
-  "submittedAt": "2026-07-25T18:12:02.191Z",
+  "sourceCode": "class Solution:\n    def twoSum(self, nums: List[int], target: int) -> List[int]:\n        hashmap = {}\n        for i in range(len(nums)):\n            hashmap[nums[i]] = i\n        for i in range(len(nums)):\n            complement = target - nums[i]\n            if complement in hashmap and hashmap[complement] != i:\n                return [i, hashmap[complement]]\n        return []",
+  "submittedAt": "2026-07-25T18:14:56.768Z",
   "title": "Two Sum",
   "topics": [
     "Array",
     "Hash Table"
   ],
-  "submissionDate": "2026-07-25T18:12:02.191Z",
+  "submissionDate": "2026-07-25T18:14:56.768Z",
   "folderName": "0001-two-sum",
-  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0001-two-sum/solution.java"
+  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0001-two-sum/solution.py"
 }

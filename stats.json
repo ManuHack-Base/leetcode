@@ -1,21 +1,21 @@
 {
-  "totalSolved": 5,
-  "easy": 5,
+  "totalSolved": 6,
+  "easy": 6,
   "medium": 0,
   "hard": 0,
   "currentStreak": 1,
   "longestStreak": 1,
   "languages": {
-    "python3": 2,
+    "python3": 3,
     "java": 2,
     "javascript": 1
   },
   "topics": {
-    "Array": 5,
-    "Hash Table": 5
+    "Array": 6,
+    "Hash Table": 6
   },
-  "lastSolved": "2026-07-25T18:12:02.191Z",
+  "lastSolved": "2026-07-25T18:14:56.768Z",
   "monthlySolves": {
-    "2026-07": 5
+    "2026-07": 6
   }
 }
