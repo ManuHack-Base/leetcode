@@ -1,19 +1,19 @@
 {
   "difficulty": "Easy",
-  "language": "javascript",
-  "leetCodeUrl": "https://leetcode.com/problems/two-sum/submissions/2081080600/",
-  "memory": "58.36\nMB",
+  "language": "java",
+  "leetCodeUrl": "https://leetcode.com/problems/two-sum/submissions/2081106147/",
+  "memory": "46.68\nMB",
   "problemId": 1,
-  "runtime": "6\nms",
+  "runtime": "4\nms",
   "slug": "two-sum",
-  "sourceCode": "for (let i = 0; i < nums.length; i++) {\n        map.set(nums[i], i);\n    }\n    for (let i = 0; i < nums.length; i++) {\n        const complement = target - nums[i];\n        if (map.has(complement) && map.get(complement) !== i) {\n            return [i, map.get(complement)];\n        }\n    }\n    // If no valid pair is found, return an empty array\n    return [];\n    const map = new Map();\nvar twoSum = function (nums, target) {",
-  "submittedAt": "2026-07-25T17:52:11.788Z",
+  "sourceCode": "}\n        // In case there is no solution, return an empty array\n            int complement = target - nums[i];\n            if (map.containsKey(complement) && map.get(complement) != i) {\n                return new int[] { i, map.get(complement) };\n            }\n        for (int i = 0; i < nums.length; i++) {\n        }\n            map.put(nums[i], i);\n        for (int i = 0; i < nums.length; i++) {\n        Map<Integer, Integer> map = new HashMap<>();\nclass Solution {\n    public int[] twoSum(int[] nums, int target) {",
+  "submittedAt": "2026-07-25T18:12:02.191Z",
   "title": "Two Sum",
   "topics": [
     "Array",
     "Hash Table"
   ],
-  "submissionDate": "2026-07-25T17:52:11.788Z",
+  "submissionDate": "2026-07-25T18:12:02.191Z",
   "folderName": "0001-two-sum",
-  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0001-two-sum/solution.js"
+  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0001-two-sum/solution.java"
 }

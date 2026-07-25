@@ -3,10 +3,10 @@
 | Detail | Value |
 | --- | --- |
 | Difficulty | Easy |
-| Language | javascript |
-| Runtime | 6
+| Language | java |
+| Runtime | 4
 ms |
-| Memory | 58.36
+| Memory | 46.68
 MB |
 
 ## Topics
@@ -19,5 +19,5 @@ See the accompanying solution file for the submitted implementation.
 
 ## Links
 
-- [LeetCode problem](https://leetcode.com/problems/two-sum/submissions/2081080600/)
-- [GitHub source](https://github.com/ManuHack-Base/leetcode/blob/main/0001-two-sum/solution.js)
+- [LeetCode problem](https://leetcode.com/problems/two-sum/submissions/2081106147/)
+- [GitHub source](https://github.com/ManuHack-Base/leetcode/blob/main/0001-two-sum/solution.java)
