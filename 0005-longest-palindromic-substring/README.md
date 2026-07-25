@@ -3,9 +3,11 @@
 | Detail | Value |
 | --- | --- |
 | Difficulty | Medium |
-| Language | c |
-| Runtime | 0 ms |
-| Memory | Memory |
+| Language | golang |
+| Runtime | 32
+ms |
+| Memory | 4.52
+MB |
 
 ## Topics
 
@@ -17,5 +19,5 @@ See the accompanying solution file for the submitted implementation.
 
 ## Links
 
-- [LeetCode problem](https://leetcode.com/problems/longest-palindromic-substring/submissions/2081182675/)
-- [GitHub source](https://github.com/ManuHack-Base/leetcode/blob/main/0005-longest-palindromic-substring/solution.c)
+- [LeetCode problem](https://leetcode.com/problems/longest-palindromic-substring/submissions/2081184500/)
+- [GitHub source](https://github.com/ManuHack-Base/leetcode/blob/main/0005-longest-palindromic-substring/solution.go)
