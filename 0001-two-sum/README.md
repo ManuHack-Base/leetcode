@@ -3,11 +3,9 @@
 | Detail | Value |
 | --- | --- |
 | Difficulty | Easy |
-| Language | java |
-| Runtime | 4
-ms |
-| Memory | 46.34
-MB |
+| Language | python3 |
+| Runtime | — |
+| Memory | — |
 
 ## Topics
 
@@ -19,5 +17,5 @@ See the accompanying solution file for the submitted implementation.
 
 ## Links
 
-- [LeetCode problem](https://leetcode.com/problems/two-sum/submissions/2081072446/)
-- [GitHub source](https://github.com/ManuHack-Base/leetcode/blob/main/0001-two-sum/solution.java)
+- [LeetCode problem](https://leetcode.com/problems/two-sum/)
+- [GitHub source](https://github.com/ManuHack-Base/leetcode/blob/main/0001-two-sum/solution.py)
