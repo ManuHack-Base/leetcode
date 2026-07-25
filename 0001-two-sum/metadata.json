@@ -1,0 +1,19 @@
+{
+  "difficulty": "Easy",
+  "language": "java",
+  "leetCodeUrl": "https://leetcode.com/problems/two-sum/submissions/2081072446/",
+  "memory": "46.34\nMB",
+  "problemId": 1,
+  "runtime": "4\nms",
+  "slug": "two-sum",
+  "sourceCode": "map.put(nums[i], i);\n        }\n        for (int i = 0; i < nums.length; i++) {\n            int complement = target - nums[i];\n            if (map.containsKey(complement) && map.get(complement) != i) {\n                return new int[] { i, map.get(complement) };\n            }\n        }\n        // In case there is no solution, return an empty array\n        for (int i = 0; i < nums.length; i++) {\n    public int[] twoSum(int[] nums, int target) {\n        Map<Integer, Integer> map = new HashMap<>();\nclass Solution {",
+  "submittedAt": "2026-07-25T17:45:51.941Z",
+  "title": "Two Sum",
+  "topics": [
+    "Array",
+    "Hash Table"
+  ],
+  "submissionDate": "2026-07-25T17:45:51.941Z",
+  "folderName": "0001-two-sum",
+  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0001-two-sum/solution.java"
+}

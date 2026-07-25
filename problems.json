@@ -1,5 +1,18 @@
 [
   {
+    "id": 1,
+    "title": "Two Sum",
+    "slug": "two-sum",
+    "difficulty": "Easy",
+    "language": "java",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ],
+    "solvedAt": "2026-07-25T17:45:51.941Z",
+    "folderName": "0001-two-sum"
+  },
+  {
     "id": 3,
     "title": "Longest Substring Without Repeating Characters",
     "slug": "two-sum",
