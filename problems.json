@@ -83,5 +83,19 @@
     ],
     "solvedAt": "2026-07-25T19:12:07.955Z",
     "folderName": "0005-longest-palindromic-substring"
+  },
+  {
+    "id": 5,
+    "title": "Longest Palindromic Substring",
+    "slug": "longest-palindromic-substring",
+    "difficulty": "Medium",
+    "language": "java",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ],
+    "solvedAt": "2026-07-25T19:17:27.819Z",
+    "folderName": "0005-longest-palindromic-substring"
   }
 ]

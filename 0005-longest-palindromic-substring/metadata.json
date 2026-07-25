@@ -1,20 +1,20 @@
 {
   "difficulty": "Medium",
-  "language": "python3",
-  "leetCodeUrl": "https://leetcode.com/problems/longest-palindromic-substring/submissions/2081167245/",
-  "memory": "19.13\nMB",
+  "language": "java",
+  "leetCodeUrl": "https://leetcode.com/problems/longest-palindromic-substring/",
+  "memory": "Memory",
   "problemId": 5,
-  "runtime": "2696\nms",
+  "runtime": "0 ms",
   "slug": "longest-palindromic-substring",
-  "sourceCode": "class Solution:\n    def longestPalindrome(self, s: str) -> str:\n        def check(i, j):\n            left = i\n            right = j - 1\n\n            while left < right:\n                if s[left] != s[right]:\n                    return False\n\n                left += 1\n                right -= 1\n\n            return True\n\n        for length in range(len(s), 0, -1):\n            for start in range(len(s) - length + 1):\n                if check(start, start + length):\n                    return s[start : start + length]\n\n        return \"\"",
-  "submittedAt": "2026-07-25T19:12:07.955Z",
+  "sourceCode": "class Solution {\n    public String longestPalindrome(String s) {\n        for (int length = s.length(); length > 0; length--) {\n            for (int start = 0; start <= s.length() - length; start++) {\n                if (check(start, start + length, s)) {\n                    return s.substring(start, start + length);\n                }\n            }\n        }\n\n        return \"\";\n    }\n\n    private boolean check(int i, int j, String s) {\n        int left = i;\n        int right = j - 1;\n\n        while (left < right) {\n            if (s.charAt(left) != s.charAt(right)) {\n                return false;\n            }\n\n            left++;\n            right--;\n        }\n\n        return true;\n    }\n}",
+  "submittedAt": "2026-07-25T19:17:27.819Z",
   "title": "Longest Palindromic Substring",
   "topics": [
     "Two Pointers",
     "String",
     "Dynamic Programming"
   ],
-  "submissionDate": "2026-07-25T19:12:07.955Z",
+  "submissionDate": "2026-07-25T19:17:27.819Z",
   "folderName": "0005-longest-palindromic-substring",
-  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0005-longest-palindromic-substring/solution.py"
+  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0005-longest-palindromic-substring/solution.java"
 }
