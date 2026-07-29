@@ -1,0 +1,21 @@
+{
+  "difficulty": "Medium",
+  "language": "java",
+  "leetCodeUrl": "https://leetcode.com/problems/container-with-most-water/submissions/2086638463/",
+  "memory": "0.00\nMB",
+  "problemId": 11,
+  "runtime": "0 ms",
+  "slug": "container-with-most-water",
+  "sourceCode": "class Solution {\n    public int maxArea(int[] height) {\n        int left = 0;\n        int right = height.length - 1;\n        int maxArea = 0;\n\n        while (left < right) {\n            int currentArea = Math.min(height[left], height[right]) * (right - left);\n            maxArea = Math.max(maxArea, currentArea);\n\n            if (height[left] < height[right]) {\n                left++;\n            } else {\n                right--;\n            }\n        }\n\n        return maxArea;\n    }\n}",
+  "submittedAt": "2026-07-29T19:17:33.047Z",
+  "testCases": "Case 1:\nStatus: Passed\nInput: height = [1,8,6,2,5,4,8,3,7]\nOutput: 49\nExpected: 49\nExplanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.\n\nCase 2:\nStatus: Passed\nInput: height = [1,1]\nOutput: 1\nExpected: 1",
+  "title": "Container With Most Water",
+  "topics": [
+    "Array",
+    "Two Pointers",
+    "Greedy"
+  ],
+  "submissionDate": "2026-07-29T19:17:33.047Z",
+  "folderName": "0011-container-with-most-water",
+  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0011-container-with-most-water/solution.java"
+}
