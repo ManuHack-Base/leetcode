@@ -139,5 +139,19 @@
     ],
     "solvedAt": "2026-07-25T19:33:53.659Z",
     "folderName": "0005-longest-palindromic-substring"
+  },
+  {
+    "id": 6,
+    "title": "Two Sum",
+    "slug": "zigzag-conversion",
+    "difficulty": "Medium",
+    "language": "java",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String"
+    ],
+    "solvedAt": "2026-07-29T18:22:52.254Z",
+    "folderName": "0006-zigzag-conversion"
   }
 ]

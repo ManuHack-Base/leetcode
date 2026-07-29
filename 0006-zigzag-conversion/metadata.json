@@ -1,0 +1,20 @@
+{
+  "difficulty": "Medium",
+  "language": "java",
+  "leetCodeUrl": "https://leetcode.com/problems/zigzag-conversion/submissions/2086579294/",
+  "memory": "46.76\nMB",
+  "problemId": 6,
+  "runtime": "0 ms",
+  "slug": "zigzag-conversion",
+  "sourceCode": "class Solution {\n    public String convert(String s, int numRows) {\n        if (numRows == 1) return s;\n        StringBuilder a = new StringBuilder();\n        for (int i = 0; i < numRows; i++) {\n            for (int j = i; j < s.length(); j += (2 * (numRows - 1))) {\n                a.append(s.charAt(j));\n                if (i > 0 && i < numRows - 1 && j + (2 * (numRows - 1)) - (2 * i) < s.length()) {\n                    a.append(s.charAt(j + (2 * (numRows - 1)) - (2 * i)));\n                }\n            }\n        }\n        return a.toString();\n    }\n}",
+  "submittedAt": "2026-07-29T18:22:52.254Z",
+  "title": "Two Sum",
+  "topics": [
+    "Array",
+    "Hash Table",
+    "String"
+  ],
+  "submissionDate": "2026-07-29T18:22:52.254Z",
+  "folderName": "0006-zigzag-conversion",
+  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0006-zigzag-conversion/solution.java"
+}
