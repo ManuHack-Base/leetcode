@@ -189,5 +189,17 @@
     ],
     "solvedAt": "2026-07-29T18:48:56.138Z",
     "folderName": "0007-reverse-integer"
+  },
+  {
+    "id": 8,
+    "title": "String to Integer (atoi)",
+    "slug": "string-to-integer-atoi",
+    "difficulty": "Medium",
+    "language": "java",
+    "topics": [
+      "String"
+    ],
+    "solvedAt": "2026-07-29T18:55:22.396Z",
+    "folderName": "0008-string-to-integer-atoi"
   }
 ]

@@ -1,0 +1,19 @@
+{
+  "difficulty": "Medium",
+  "language": "java",
+  "leetCodeUrl": "https://leetcode.com/problems/string-to-integer-atoi/submissions/2086618199/",
+  "memory": "Memory",
+  "problemId": 8,
+  "runtime": "0 ms",
+  "slug": "string-to-integer-atoi",
+  "sourceCode": "class Solution {\n    public int myAtoi(String s) {\n        s = s.trim(); // Remove leading whitespace\n        int sign = 1, i = 0;\n        long res = 0; // Using long to handle overflow cases\n\n        if (s.length() == 0) return 0;\n\n        // Check for sign\n        if (s.charAt(0) == '-') { sign = -1; i++; }\n        else if (s.charAt(0) == '+') { i++; }\n\n        // Process numerical characters\n        while (i < s.length()) {\n            char ch = s.charAt(i);\n            if (ch < '0' || ch > '9') break; // Stop at non-numeric character\n\n            res = res * 10 + (ch - '0'); // Convert char to number\n            if (sign * res > Integer.MAX_VALUE) return Integer.MAX_VALUE; // Handle overflow\n            if (sign * res < Integer.MIN_VALUE) return Integer.MIN_VALUE;\n\n            i++;\n        }\n        return (int) (sign * res);\n    }\n}",
+  "submittedAt": "2026-07-29T18:55:22.396Z",
+  "testCases": "Case 1:\nStatus: Passed\nInput:\n\"42\"\n\nCase 2:\nStatus: Passed\nInput:\n\"   -042\"\n\nCase 3:\nStatus: Passed\nInput:\n\"1337c0d3\"\n\nCase 4:\nStatus: Passed\nInput:\n\"0-1\"\n\nCase 5:\nStatus: Passed\nInput:\n\"words and 987\"",
+  "title": "String to Integer (atoi)",
+  "topics": [
+    "String"
+  ],
+  "submissionDate": "2026-07-29T18:55:22.396Z",
+  "folderName": "0008-string-to-integer-atoi",
+  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0008-string-to-integer-atoi/solution.java"
+}

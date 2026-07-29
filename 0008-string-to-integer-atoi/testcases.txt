@@ -1,0 +1,24 @@
+Case 1:
+Status: Passed
+Input:
+"42"
+
+Case 2:
+Status: Passed
+Input:
+"   -042"
+
+Case 3:
+Status: Passed
+Input:
+"1337c0d3"
+
+Case 4:
+Status: Passed
+Input:
+"0-1"
+
+Case 5:
+Status: Passed
+Input:
+"words and 987"
