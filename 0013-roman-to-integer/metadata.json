@@ -1,21 +1,21 @@
 {
   "difficulty": "Easy",
-  "language": "java",
-  "leetCodeUrl": "https://leetcode.com/problems/roman-to-integer/submissions/2086660109/",
+  "language": "python3",
+  "leetCodeUrl": "https://leetcode.com/problems/roman-to-integer/submissions/2086661598/",
   "memory": "0.00\nMB",
   "problemId": 13,
-  "runtime": "0 ms",
+  "runtime": "0\nms",
   "slug": "roman-to-integer",
-  "sourceCode": "class Solution {\n    public int romanToInt(String s) {\n        int res = 0;\n        Map<Character, Integer> roman = new HashMap<>();\n        roman.put('I', 1);\n        roman.put('V', 5);\n        roman.put('X', 10);\n        roman.put('L', 50);\n        roman.put('C', 100);\n        roman.put('D', 500);\n        roman.put('M', 1000);\n\n        for (int i = 0; i < s.length() - 1; i++) {\n            if (roman.get(s.charAt(i)) < roman.get(s.charAt(i + 1))) {\n                res -= roman.get(s.charAt(i));\n            } else {\n                res += roman.get(s.charAt(i));\n            }\n        }\n\n        return res + roman.get(s.charAt(s.length() - 1));        \n    }\n}",
-  "submittedAt": "2026-07-29T19:45:15.937Z",
-  "testCases": "Case 1:\nStatus: Passed\nInput: s = \"III\"\nOutput: 3\nExpected: 3\nExplanation: III = 3.\n\nCase 2:\nStatus: Passed\nInput: s = \"LVIII\"\nOutput: 58\nExpected: 58\nExplanation: L = 50, V= 5, III = 3.\n\nCase 3:\nStatus: Passed\nInput: s = \"MCMXCIV\"\nOutput: 1994\nExpected: 1994\nExplanation: M = 1000, CM = 900, XC = 90 and IV = 4.\n\nCase 4:\nStatus: Passed\nInput: s = \"XIV\"",
+  "sourceCode": "class Solution:\n    def romanToInt(self, s: str) -> int:\n        res = 0\n        roman = {\n            'I': 1,\n            'V': 5,\n            'X': 10,\n            'L': 50,\n            'C': 100,\n            'D': 500,\n            'M': 1000\n        }\n\n        for a, b in zip(s, s[1:]):\n            if roman[a] < roman[b]:\n                res -= roman[a]\n            else:\n                res += roman[a]\n\n        return res + roman[s[-1]]",
+  "submittedAt": "2026-07-29T19:47:21.508Z",
+  "testCases": "Case 1:\nStatus: Passed\nInput:\ns = \"III\"\n\nCase 2:\nStatus: Passed\nInput:\ns = \"LVIII\"\n\nCase 3:\nStatus: Passed\nInput:\ns = \"MCMXCIV\"",
   "title": "Roman to Integer",
   "topics": [
     "Hash Table",
     "Math",
     "String"
   ],
-  "submissionDate": "2026-07-29T19:45:15.937Z",
+  "submissionDate": "2026-07-29T19:47:21.508Z",
   "folderName": "0013-roman-to-integer",
-  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0013-roman-to-integer/solution.java"
+  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0013-roman-to-integer/solution.py"
 }

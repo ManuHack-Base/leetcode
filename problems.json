@@ -333,5 +333,19 @@
     ],
     "solvedAt": "2026-07-29T19:45:15.937Z",
     "folderName": "0013-roman-to-integer"
+  },
+  {
+    "id": 13,
+    "title": "Roman to Integer",
+    "slug": "roman-to-integer",
+    "difficulty": "Easy",
+    "language": "python3",
+    "topics": [
+      "Hash Table",
+      "Math",
+      "String"
+    ],
+    "solvedAt": "2026-07-29T19:47:21.508Z",
+    "folderName": "0013-roman-to-integer"
   }
 ]

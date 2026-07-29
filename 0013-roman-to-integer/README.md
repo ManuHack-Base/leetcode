@@ -3,8 +3,9 @@
 | Detail | Value |
 | --- | --- |
 | Difficulty | Easy |
-| Language | java |
-| Runtime | 0 ms |
+| Language | python3 |
+| Runtime | 0
+ms |
 | Memory | 0.00
 MB |
 
@@ -18,5 +19,5 @@ See the accompanying solution file for the submitted implementation.
 
 ## Links
 
-- [LeetCode problem](https://leetcode.com/problems/roman-to-integer/submissions/2086660109/)
-- [GitHub source](https://github.com/ManuHack-Base/leetcode/blob/main/0013-roman-to-integer/solution.java)
+- [LeetCode problem](https://leetcode.com/problems/roman-to-integer/submissions/2086661598/)
+- [GitHub source](https://github.com/ManuHack-Base/leetcode/blob/main/0013-roman-to-integer/solution.py)

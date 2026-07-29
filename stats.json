@@ -1,12 +1,12 @@
 {
-  "totalSolved": 33,
-  "easy": 10,
+  "totalSolved": 34,
+  "easy": 11,
   "medium": 18,
   "hard": 4,
   "currentStreak": 1,
   "longestStreak": 1,
   "languages": {
-    "python3": 13,
+    "python3": 14,
     "java": 12,
     "javascript": 3,
     "cpp": 3,
@@ -15,19 +15,19 @@
   },
   "topics": {
     "Array": 9,
-    "Hash Table": 11,
+    "Hash Table": 12,
     "Linked List": 3,
-    "Math": 11,
+    "Math": 12,
     "Recursion": 4,
     "Binary Search": 1,
     "Divide and Conquer": 1,
     "Two Pointers": 6,
-    "String": 15,
+    "String": 16,
     "Dynamic Programming": 6,
     "Greedy": 1
   },
-  "lastSolved": "2026-07-29T19:45:15.937Z",
+  "lastSolved": "2026-07-29T19:47:21.508Z",
   "monthlySolves": {
-    "2026-07": 33
+    "2026-07": 34
   }
 }
