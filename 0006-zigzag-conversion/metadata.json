@@ -1,18 +1,18 @@
 {
   "difficulty": "Medium",
-  "language": "python3",
-  "leetCodeUrl": "https://leetcode.com/problems/zigzag-conversion/submissions/2086589252/",
-  "memory": "19.22\nMB",
+  "language": "cpp",
+  "leetCodeUrl": "https://leetcode.com/problems/zigzag-conversion/submissions/2086594092/",
+  "memory": "11.32\nMB",
   "problemId": 6,
   "runtime": "0 ms",
   "slug": "zigzag-conversion",
-  "sourceCode": "class Solution:\n    def convert(self, s: str, numRows: int) -> str:\n        if numRows == 1: return s\n        a=\"\"\n        for i in range(numRows):\n            for j in range(i,len(s),2*(numRows-1)):\n                a+=s[j]\n                if(i>0 and i<numRows-1 and j+2*(numRows-1)-2*i < len(s)):\n                    a+=s[j+2*(numRows-1)-2*i]\n        return a",
-  "submittedAt": "2026-07-29T18:29:30.366Z",
+  "sourceCode": "class Solution {\npublic:\n    string convert(string s, int numRows) {\n        if (numRows == 1) return s;\n        char a[10000];\n        std::size_t len = s.length();\n        int index =0;\n        for (int i = 0; i < numRows; i++) {\n            for (int j = i; j < len; j +=2*(numRows-1)) {\n                a[index++] = s[j];\n                if (i > 0 && i<numRows-1 && j+2*(numRows-1)-2*i<len) {\n                    a[index++] = s[j + 2*(numRows - 1)-2*i];\n                }\n            }\n        }\n        a[index]='\\0';\n        return a;\n    }\n};",
+  "submittedAt": "2026-07-29T18:33:13.543Z",
   "title": "Zigzag Conversion",
   "topics": [
     "String"
   ],
-  "submissionDate": "2026-07-29T18:29:30.366Z",
+  "submissionDate": "2026-07-29T18:33:13.543Z",
   "folderName": "0006-zigzag-conversion",
-  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0006-zigzag-conversion/solution.py"
+  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0006-zigzag-conversion/solution.cpp"
 }

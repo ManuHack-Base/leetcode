@@ -3,9 +3,9 @@
 | Detail | Value |
 | --- | --- |
 | Difficulty | Medium |
-| Language | python3 |
+| Language | cpp |
 | Runtime | 0 ms |
-| Memory | 19.22
+| Memory | 11.32
 MB |
 
 ## Topics
@@ -18,5 +18,5 @@ See the accompanying solution file for the submitted implementation.
 
 ## Links
 
-- [LeetCode problem](https://leetcode.com/problems/zigzag-conversion/submissions/2086589252/)
-- [GitHub source](https://github.com/ManuHack-Base/leetcode/blob/main/0006-zigzag-conversion/solution.py)
+- [LeetCode problem](https://leetcode.com/problems/zigzag-conversion/submissions/2086594092/)
+- [GitHub source](https://github.com/ManuHack-Base/leetcode/blob/main/0006-zigzag-conversion/solution.cpp)

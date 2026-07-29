@@ -165,5 +165,17 @@
     ],
     "solvedAt": "2026-07-29T18:29:30.366Z",
     "folderName": "0006-zigzag-conversion"
+  },
+  {
+    "id": 6,
+    "title": "Zigzag Conversion",
+    "slug": "zigzag-conversion",
+    "difficulty": "Medium",
+    "language": "cpp",
+    "topics": [
+      "String"
+    ],
+    "solvedAt": "2026-07-29T18:33:13.543Z",
+    "folderName": "0006-zigzag-conversion"
   }
 ]

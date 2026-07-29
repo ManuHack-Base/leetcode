@@ -1,7 +1,7 @@
 {
-  "totalSolved": 20,
+  "totalSolved": 21,
   "easy": 6,
-  "medium": 10,
+  "medium": 11,
   "hard": 3,
   "currentStreak": 1,
   "longestStreak": 1,
@@ -9,7 +9,7 @@
     "python3": 9,
     "java": 6,
     "javascript": 2,
-    "cpp": 1,
+    "cpp": 2,
     "c": 1,
     "golang": 1
   },
@@ -22,11 +22,11 @@
     "Binary Search": 1,
     "Divide and Conquer": 1,
     "Two Pointers": 5,
-    "String": 7,
+    "String": 8,
     "Dynamic Programming": 5
   },
-  "lastSolved": "2026-07-29T18:29:30.366Z",
+  "lastSolved": "2026-07-29T18:33:13.543Z",
   "monthlySolves": {
-    "2026-07": 20
+    "2026-07": 21
   }
 }
