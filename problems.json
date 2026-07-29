@@ -213,5 +213,17 @@
     ],
     "solvedAt": "2026-07-29T18:59:17.576Z",
     "folderName": "0008-string-to-integer-atoi"
+  },
+  {
+    "id": 9,
+    "title": "Palindrome Number",
+    "slug": "palindrome-number",
+    "difficulty": "Easy",
+    "language": "java",
+    "topics": [
+      "Math"
+    ],
+    "solvedAt": "2026-07-29T19:03:33.041Z",
+    "folderName": "0009-palindrome-number"
   }
 ]
