@@ -177,5 +177,17 @@
     ],
     "solvedAt": "2026-07-29T18:33:13.543Z",
     "folderName": "0006-zigzag-conversion"
+  },
+  {
+    "id": 7,
+    "title": "Reverse Integer",
+    "slug": "reverse-integer",
+    "difficulty": "Medium",
+    "language": "python3",
+    "topics": [
+      "Math"
+    ],
+    "solvedAt": "2026-07-29T18:48:56.138Z",
+    "folderName": "0007-reverse-integer"
   }
 ]

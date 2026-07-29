@@ -1,0 +1,19 @@
+{
+  "difficulty": "Medium",
+  "language": "python3",
+  "leetCodeUrl": "https://leetcode.com/problems/reverse-integer/submissions/2086611125/",
+  "memory": "19.37\nMB",
+  "problemId": 7,
+  "runtime": "49\nms",
+  "slug": "reverse-integer",
+  "sourceCode": "class Solution:\n    def reverse(self, x: int) -> int:\n        sign = [1, -1][x < 0]\n        rev, x = 0, abs(x)\n        while x:\n            x, mod = divmod(x, 10)\n            rev = rev * 10 + mod\n            if rev > 2**31 - 1:\n                return 0\n        return sign * rev",
+  "submittedAt": "2026-07-29T18:48:56.138Z",
+  "testCases": "Case 1:\n123\n\nCase 2:\n-123\n\nCase 3:\n120",
+  "title": "Reverse Integer",
+  "topics": [
+    "Math"
+  ],
+  "submissionDate": "2026-07-29T18:48:56.138Z",
+  "folderName": "0007-reverse-integer",
+  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0007-reverse-integer/solution.py"
+}
