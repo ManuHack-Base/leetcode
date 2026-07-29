@@ -153,5 +153,17 @@
     ],
     "solvedAt": "2026-07-29T18:22:52.254Z",
     "folderName": "0006-zigzag-conversion"
+  },
+  {
+    "id": 6,
+    "title": "Zigzag Conversion",
+    "slug": "zigzag-conversion",
+    "difficulty": "Medium",
+    "language": "python3",
+    "topics": [
+      "String"
+    ],
+    "solvedAt": "2026-07-29T18:29:30.366Z",
+    "folderName": "0006-zigzag-conversion"
   }
 ]
