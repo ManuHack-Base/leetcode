@@ -361,5 +361,19 @@
     ],
     "solvedAt": "2026-07-29T19:51:25.449Z",
     "folderName": "0014-longest-common-prefix"
+  },
+  {
+    "id": 14,
+    "title": "Longest Common Prefix",
+    "slug": "longest-common-prefix",
+    "difficulty": "Easy",
+    "language": "python3",
+    "topics": [
+      "Array",
+      "String",
+      "Trie"
+    ],
+    "solvedAt": "2026-07-29T19:52:36.929Z",
+    "folderName": "0014-longest-common-prefix"
   }
 ]

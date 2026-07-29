@@ -1,12 +1,12 @@
 {
-  "totalSolved": 35,
-  "easy": 12,
+  "totalSolved": 36,
+  "easy": 13,
   "medium": 18,
   "hard": 4,
   "currentStreak": 1,
   "longestStreak": 1,
   "languages": {
-    "python3": 14,
+    "python3": 15,
     "java": 13,
     "javascript": 3,
     "cpp": 3,
@@ -14,7 +14,7 @@
     "golang": 1
   },
   "topics": {
-    "Array": 10,
+    "Array": 11,
     "Hash Table": 12,
     "Linked List": 3,
     "Math": 12,
@@ -22,13 +22,13 @@
     "Binary Search": 1,
     "Divide and Conquer": 1,
     "Two Pointers": 6,
-    "String": 17,
+    "String": 18,
     "Dynamic Programming": 6,
     "Greedy": 1,
-    "Trie": 1
+    "Trie": 2
   },
-  "lastSolved": "2026-07-29T19:51:25.449Z",
+  "lastSolved": "2026-07-29T19:52:36.929Z",
   "monthlySolves": {
-    "2026-07": 35
+    "2026-07": 36
   }
 }

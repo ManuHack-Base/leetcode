@@ -2,8 +2,12 @@ Case 1:
 Status: Passed
 Input:
 strs = ["flower","flow","flight"]
+Output = &quot;fl&quot;
+Expected = &quot;fl&quot;
 
 Case 2:
 Status: Passed
 Input:
 strs = ["dog","racecar","car"]
+Output = &quot;&quot;
+Expected = &quot;&quot;
