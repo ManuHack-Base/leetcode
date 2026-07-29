@@ -1,0 +1,21 @@
+{
+  "difficulty": "Medium",
+  "language": "java",
+  "leetCodeUrl": "https://leetcode.com/problems/integer-to-roman/description/",
+  "memory": "Memory",
+  "problemId": 12,
+  "runtime": "0 ms",
+  "slug": "integer-to-roman",
+  "sourceCode": "class Solution {\n    public String intToRoman(int num) {\n        final int[] values = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};\n        final String[] symbols = {\"M\", \"CM\", \"D\",  \"CD\", \"C\", \"XC\", \"L\", \"XL\", \"X\", \"IX\", \"V\", \"IV\", \"I\"};\n\n        StringBuilder sb = new StringBuilder();\n\n        for (int i = 0; i < values.length; ++i) {\n            if (num == 0)\n                break;\n            while (num >= values[i]) {\n                sb.append(symbols[i]);\n                num -= values[i];\n            }\n        }\n\n        return sb.toString();        \n    }\n}",
+  "submittedAt": "2026-07-29T19:32:15.546Z",
+  "testCases": "Case 1:\nStatus: Passed\nInput: num = 3749\n\nCase 2:\nStatus: Passed\nOutput: \"MMMDCCXLIX\"\nExpected: \"MMMDCCXLIX\"",
+  "title": "Integer to Roman",
+  "topics": [
+    "Hash Table",
+    "Math",
+    "String"
+  ],
+  "submissionDate": "2026-07-29T19:32:15.546Z",
+  "folderName": "0012-integer-to-roman",
+  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0012-integer-to-roman/solution.java"
+}

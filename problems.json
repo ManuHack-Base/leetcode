@@ -277,5 +277,19 @@
     ],
     "solvedAt": "2026-07-29T19:17:33.047Z",
     "folderName": "0011-container-with-most-water"
+  },
+  {
+    "id": 12,
+    "title": "Integer to Roman",
+    "slug": "integer-to-roman",
+    "difficulty": "Medium",
+    "language": "java",
+    "topics": [
+      "Hash Table",
+      "Math",
+      "String"
+    ],
+    "solvedAt": "2026-07-29T19:32:15.546Z",
+    "folderName": "0012-integer-to-roman"
   }
 ]
