@@ -201,5 +201,17 @@
     ],
     "solvedAt": "2026-07-29T18:55:22.396Z",
     "folderName": "0008-string-to-integer-atoi"
+  },
+  {
+    "id": 8,
+    "title": "String to Integer (atoi)",
+    "slug": "string-to-integer-atoi",
+    "difficulty": "Medium",
+    "language": "python3",
+    "topics": [
+      "String"
+    ],
+    "solvedAt": "2026-07-29T18:59:17.576Z",
+    "folderName": "0008-string-to-integer-atoi"
   }
 ]

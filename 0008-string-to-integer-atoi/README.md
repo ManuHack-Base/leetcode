@@ -3,9 +3,11 @@
 | Detail | Value |
 | --- | --- |
 | Difficulty | Medium |
-| Language | java |
-| Runtime | 0 ms |
-| Memory | Memory |
+| Language | python3 |
+| Runtime | 0
+ms |
+| Memory | 19.44
+MB |
 
 ## Topics
 
@@ -17,5 +19,5 @@ See the accompanying solution file for the submitted implementation.
 
 ## Links
 
-- [LeetCode problem](https://leetcode.com/problems/string-to-integer-atoi/submissions/2086618199/)
-- [GitHub source](https://github.com/ManuHack-Base/leetcode/blob/main/0008-string-to-integer-atoi/solution.java)
+- [LeetCode problem](https://leetcode.com/problems/string-to-integer-atoi/submissions/2086621778/)
+- [GitHub source](https://github.com/ManuHack-Base/leetcode/blob/main/0008-string-to-integer-atoi/solution.py)
