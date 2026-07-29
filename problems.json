@@ -249,5 +249,19 @@
     ],
     "solvedAt": "2026-07-29T19:10:19.016Z",
     "folderName": "0009-palindrome-number"
+  },
+  {
+    "id": 10,
+    "title": "Regular Expression Matching",
+    "slug": "regular-expression-matching",
+    "difficulty": "Hard",
+    "language": "java",
+    "topics": [
+      "String",
+      "Dynamic Programming",
+      "Recursion"
+    ],
+    "solvedAt": "2026-07-29T19:11:31.900Z",
+    "folderName": "0010-regular-expression-matching"
   }
 ]

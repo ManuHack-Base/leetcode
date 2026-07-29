@@ -1,0 +1,21 @@
+{
+  "difficulty": "Hard",
+  "language": "java",
+  "leetCodeUrl": "https://leetcode.com/problems/regular-expression-matching/",
+  "memory": "Memory",
+  "problemId": 10,
+  "runtime": "0 ms",
+  "slug": "regular-expression-matching",
+  "sourceCode": "class Solution {\n    public boolean isMatch(String text, String pattern) {\n        if (pattern.isEmpty()) return text.isEmpty();\n        boolean first_match =\n            (!text.isEmpty() &&\n                (pattern.charAt(0) == text.charAt(0) ||\n                    pattern.charAt(0) == '.'));\n\n        if (pattern.length() >= 2 && pattern.charAt(1) == '*') {\n            return (\n                isMatch(text, pattern.substring(2)) ||\n                (first_match && isMatch(text.substring(1), pattern))\n            );\n        } else {\n            return (\n                first_match && isMatch(text.substring(1), pattern.substring(1))\n            );\n        }\n    }\n}",
+  "submittedAt": "2026-07-29T19:11:31.900Z",
+  "testCases": "Case 1:\nStatus: Passed\nInput: s = \"aa\", p = \"a\"\nOutput: false\nExplanation: \"a\" does not match the entire string \"aa\".\n\nCase 2:\nStatus: Passed\nInput: s = \"aa\", p = \"a*\"\nOutput: true\nExplanation: '*' means zero or more of the preceding element, 'a'. Therefore, by repeating 'a' once, it becomes \"aa\".\n\nCase 3:\nStatus: Passed\nInput: s = \"ab\", p = \".*\"\nOutput: true\nExplanation: \".*\" means \"zero or more (*) of any character (.)\".",
+  "title": "Regular Expression Matching",
+  "topics": [
+    "String",
+    "Dynamic Programming",
+    "Recursion"
+  ],
+  "submissionDate": "2026-07-29T19:11:31.900Z",
+  "folderName": "0010-regular-expression-matching",
+  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0010-regular-expression-matching/solution.java"
+}
