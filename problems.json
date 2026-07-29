@@ -319,5 +319,19 @@
     ],
     "solvedAt": "2026-07-29T19:40:59.350Z",
     "folderName": "0012-integer-to-roman"
+  },
+  {
+    "id": 13,
+    "title": "Roman to Integer",
+    "slug": "roman-to-integer",
+    "difficulty": "Easy",
+    "language": "java",
+    "topics": [
+      "Hash Table",
+      "Math",
+      "String"
+    ],
+    "solvedAt": "2026-07-29T19:45:15.937Z",
+    "folderName": "0013-roman-to-integer"
   }
 ]
