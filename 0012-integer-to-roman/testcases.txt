@@ -1,14 +1,8 @@
 Case 1:
 Status: Passed
-Input:
-3749
+Input: num = 3749
 
 Case 2:
 Status: Passed
-Input:
-58
-
-Case 3:
-Status: Passed
-Input:
-1994
+Output: "MMMDCCXLIX"
+Expected: "MMMDCCXLIX"

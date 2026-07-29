@@ -305,5 +305,19 @@
     ],
     "solvedAt": "2026-07-29T19:36:28.657Z",
     "folderName": "0012-integer-to-roman"
+  },
+  {
+    "id": 12,
+    "title": "Integer to Roman",
+    "slug": "integer-to-roman",
+    "difficulty": "Medium",
+    "language": "javascript",
+    "topics": [
+      "Hash Table",
+      "Math",
+      "String"
+    ],
+    "solvedAt": "2026-07-29T19:40:59.350Z",
+    "folderName": "0012-integer-to-roman"
   }
 ]
