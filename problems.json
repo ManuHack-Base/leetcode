@@ -389,5 +389,19 @@
     ],
     "solvedAt": "2026-07-29T19:54:06.287Z",
     "folderName": "0015-3sum"
+  },
+  {
+    "id": 15,
+    "title": "3Sum",
+    "slug": "3sum",
+    "difficulty": "Medium",
+    "language": "python3",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ],
+    "solvedAt": "2026-07-29T19:56:45.092Z",
+    "folderName": "0015-3sum"
   }
 ]

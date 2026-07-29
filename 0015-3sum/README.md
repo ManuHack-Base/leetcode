@@ -3,10 +3,9 @@
 | Detail | Value |
 | --- | --- |
 | Difficulty | Medium |
-| Language | java |
-| Runtime | 1 ms |
-| Memory | 0.00
-MB |
+| Language | python3 |
+| Runtime | 0 ms |
+| Memory | Memory |
 
 ## Topics
 
@@ -18,5 +17,5 @@ See the accompanying solution file for the submitted implementation.
 
 ## Links
 
-- [LeetCode problem](https://leetcode.com/problems/3sum/submissions/2086666273/)
-- [GitHub source](https://github.com/ManuHack-Base/leetcode/blob/main/0015-3sum/solution.java)
+- [LeetCode problem](https://leetcode.com/problems/3sum/submissions/2086668130/)
+- [GitHub source](https://github.com/ManuHack-Base/leetcode/blob/main/0015-3sum/solution.py)
