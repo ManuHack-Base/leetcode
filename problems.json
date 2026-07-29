@@ -237,5 +237,17 @@
     ],
     "solvedAt": "2026-07-29T19:08:45.680Z",
     "folderName": "0009-palindrome-number"
+  },
+  {
+    "id": 9,
+    "title": "Palindrome Number",
+    "slug": "palindrome-number",
+    "difficulty": "Easy",
+    "language": "cpp",
+    "topics": [
+      "Math"
+    ],
+    "solvedAt": "2026-07-29T19:10:19.016Z",
+    "folderName": "0009-palindrome-number"
   }
 ]
