@@ -347,5 +347,19 @@
     ],
     "solvedAt": "2026-07-29T19:47:21.508Z",
     "folderName": "0013-roman-to-integer"
+  },
+  {
+    "id": 14,
+    "title": "Longest Common Prefix",
+    "slug": "longest-common-prefix",
+    "difficulty": "Easy",
+    "language": "java",
+    "topics": [
+      "Array",
+      "String",
+      "Trie"
+    ],
+    "solvedAt": "2026-07-29T19:51:25.449Z",
+    "folderName": "0014-longest-common-prefix"
   }
 ]

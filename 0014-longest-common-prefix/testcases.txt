@@ -1,0 +1,9 @@
+Case 1:
+Status: Passed
+Input:
+strs = ["flower","flow","flight"]
+
+Case 2:
+Status: Passed
+Input:
+strs = ["dog","racecar","car"]

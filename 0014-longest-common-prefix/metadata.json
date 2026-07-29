@@ -1,0 +1,21 @@
+{
+  "difficulty": "Easy",
+  "language": "java",
+  "leetCodeUrl": "https://leetcode.com/problems/longest-common-prefix/submissions/2086664434/",
+  "memory": "0.00\nMB",
+  "problemId": 14,
+  "runtime": "0 ms",
+  "slug": "longest-common-prefix",
+  "sourceCode": "class Solution {\n    public String longestCommonPrefix(String[] strs) {\n        if (strs.length == 0) return \"\";\n        String prefix = strs[0];\n        for (int i = 1; i < strs.length; i++) while (\n            strs[i].indexOf(prefix) != 0\n        ) {\n            prefix = prefix.substring(0, prefix.length() - 1);\n            if (prefix.isEmpty()) return \"\";\n        }\n        return prefix;\n    }\n}",
+  "submittedAt": "2026-07-29T19:51:25.449Z",
+  "testCases": "Case 1:\nStatus: Passed\nInput:\nstrs = [\"flower\",\"flow\",\"flight\"]\n\nCase 2:\nStatus: Passed\nInput:\nstrs = [\"dog\",\"racecar\",\"car\"]",
+  "title": "Longest Common Prefix",
+  "topics": [
+    "Array",
+    "String",
+    "Trie"
+  ],
+  "submissionDate": "2026-07-29T19:51:25.449Z",
+  "folderName": "0014-longest-common-prefix",
+  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0014-longest-common-prefix/solution.java"
+}
