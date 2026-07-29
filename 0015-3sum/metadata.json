@@ -1,0 +1,21 @@
+{
+  "difficulty": "Medium",
+  "language": "java",
+  "leetCodeUrl": "https://leetcode.com/problems/3sum/submissions/2086666273/",
+  "memory": "0.00\nMB",
+  "problemId": 15,
+  "runtime": "1 ms",
+  "slug": "3sum",
+  "sourceCode": "class Solution {\n    public List<List<Integer>> threeSum(int[] nums) {\n        List<List<Integer>> res = new ArrayList<>();\n        Arrays.sort(nums);\n\n        for (int i = 0; i < nums.length; i++) {\n            if (i > 0 && nums[i] == nums[i-1]) {\n                continue;\n            }\n            \n            int j = i + 1;\n            int k = nums.length - 1;\n\n            while (j < k) {\n                int total = nums[i] + nums[j] + nums[k];\n\n                if (total > 0) {\n                    k--;\n                } else if (total < 0) {\n                    j++;\n                } else {\n                    res.add(Arrays.asList(nums[i], nums[j], nums[k]));\n                    j++;\n\n                    while (nums[j] == nums[j-1] && j < k) {\n                        j++;\n                    }\n                }\n            }\n        }\n        return res;        \n    }\n}",
+  "submittedAt": "2026-07-29T19:54:06.287Z",
+  "testCases": "Case 1:\nStatus: Passed\nInput:\nnums = [-1,0,1,2,-1,-4]\nOutput = [[-1,-1,2],[-1,0,1]]\nExpected = [[-1,-1,2],[-1,0,1]]\n\nCase 2:\nStatus: Passed\nInput:\nnums = [0,1,1]\nOutput = []\nExpected = []\n\nCase 3:\nStatus: Passed\nInput:\nnums = [0,0,0]\nOutput = [[0,0,0]]\nExpected = [[0,0,0]]",
+  "title": "3Sum",
+  "topics": [
+    "Array",
+    "Two Pointers",
+    "Sorting"
+  ],
+  "submissionDate": "2026-07-29T19:54:06.287Z",
+  "folderName": "0015-3sum",
+  "githubUrl": "https://github.com/ManuHack-Base/leetcode/blob/main/0015-3sum/solution.java"
+}

@@ -375,5 +375,19 @@
     ],
     "solvedAt": "2026-07-29T19:52:36.929Z",
     "folderName": "0014-longest-common-prefix"
+  },
+  {
+    "id": 15,
+    "title": "3Sum",
+    "slug": "3sum",
+    "difficulty": "Medium",
+    "language": "java",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ],
+    "solvedAt": "2026-07-29T19:54:06.287Z",
+    "folderName": "0015-3sum"
   }
 ]
